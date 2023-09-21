@@ -50,6 +50,8 @@
     .services .solar h1,
     .services .pressure-washing h1 {
         color: aliceblue;
+        padding: 10px;
+        margin: 5px;
     }
 
     /* Additional styles for the pipe character */
