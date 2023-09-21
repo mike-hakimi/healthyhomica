@@ -1,0 +1,15 @@
+img{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+};
+
+@media screen and (max-width: 960px) {
+    .img-class {
+        width: 10px;
+        height: auto; /* To maintain aspect ratio */
+      }
+  }
