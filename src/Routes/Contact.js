@@ -4,7 +4,7 @@ import '../cssComponents/Contact.css'
 function Contact(){
     return (
         <section id="contact">
-    {/* Your contact section content */}
+  
     <h1>Contact</h1>
     <p>If you have any questions or inquiries, please feel free to contact us.</p>
     <h3>windows9to5@gmail.com</h3>
