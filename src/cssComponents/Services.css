@@ -28,6 +28,10 @@
       color: aliceblue
             
         };
+        .services .window {
+            color: aliceblue;
+
+        }
 
         .services h1 {
             display: none;
