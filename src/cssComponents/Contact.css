@@ -6,6 +6,73 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#contact h2 {
+    color: #09bef0;
+}
+
+#contact p {
+    color: rgb(23, 21, 21);
+    margin-bottom: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left; /* Align form elements to the left */
+}
+
+.inputs {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#contact .form-class textarea {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 15vh;
+}
+
+#contact button {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    height: 4vh;
+    width: 6vw;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    font-weight: bolder;
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; 
+}
+
+#contact button:hover {
+    background-color: #0860e6;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* #contact {
+    background-color: rgba(169, 214, 251, 0.996);
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #contact h2{
     color: #09bef0;
 }
@@ -34,9 +101,10 @@
 } 
 
 
-#contact textarea {
+#contact .form-class textarea {
+    display: flex;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 0.5rem;
     border: 2px solid black;
     border-radius: 5px;
@@ -61,7 +129,9 @@
 #contact button:hover{
     background-color: #0860e6;
     color: white;
-}
+} */
+
+
 
 @media screen and (max-width: 960px) {
     

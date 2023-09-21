@@ -1,6 +1,7 @@
 
     .services {
         display: flex;
+        flex-direction: row;
         color: rgb(2, 63, 161);
         /* color: rgb(54, 129, 250); */
         justify-content: space-evenly;
@@ -12,7 +13,7 @@
     }
     .services img {
         height: 30vh;
-        width: 100%;
+        width: 30vw;
         border-radius: 9%;
     }
 
