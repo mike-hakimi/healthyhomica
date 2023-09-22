@@ -28,7 +28,20 @@ function Navbar (){
                 
                 />
                 Windows 9 - 5
+               
               </Link>
+              <li>
+                  <h1>
+                    <a class="phone-link-top" href="tel:+15109573496"
+                  style={{
+                    color:'white',
+                    textDecoration: 'none',
+                    listStyle:'none'
+                }}
+                  >(510) 957-3496</a>
+                    </h1>
+                </li>
+
               <div className="menu-icon" onClick={handleClick}>
                 {click ? <FaTimes /> : <FaBars />}
               </div>
@@ -63,31 +76,13 @@ function Navbar (){
                         Contact  
                     </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                    <NavLink to="/contact" style={{color: 'whitesmoke'}} className={({ isActive}) => "nav-links" + (isActive ? " activated" : "")}
-                    onClick={closeMobileMenu}
-                    >
-                       (510) 957-3496   
-                    </NavLink>
-                </li> */}
-                <ul>
-                {/* <li className="faClass">
-                <a   href="https://www.facebook.com/Windows9to5?mibextid=9R9pXO"
-                               style={{ fontSize: '50px', padding: '15px', color:'rgb(54, 129, 250)' }} 
-                              >
-                                <FontAwesomeIcon icon={faFacebook}/>
-                              </a>
-                </li> */}
-                {/* <li className="window-9-5-nav">
-                  <h1>
-                    Window 9 - 5
-                  </h1>
-                </li> */}
-              </ul>
+                
+             
               </ul>
 
             </div>
-            <ul className="faClassAndWinow">
+            <ul className="faClassAndWinow">      
+                
                  <li className="faClass">
                 <a   href="https://www.facebook.com/Windows9to5?mibextid=9R9pXO"
                               //  style={{ fontSize: '50px', padding: '15px', color:'rgb(54, 129, 250)' }} 
@@ -95,15 +90,18 @@ function Navbar (){
                                 <FontAwesomeIcon icon={faFacebook}/>
                      </a>
                 </li> 
+               
                 <li className="window-9-5-nav">
-                  <h1>
-                    Window 9 - 5
-                  </h1>
+                  <h1><a class="phone-link" href="tel:+15109573496"
+                   style={{
+                    color:'white',
+                    textDecoration: 'none',
+                     padding:'10px',
+                     fontSize: '1.5rem'
+                     }}>(510) 957-3496</a>
+                      </h1>
                 </li>
-                <li className="window-9-5-nav">
-                  <h1><a class="phone-link" href="tel:+15109573496" style={{color:'white'}}>(510) 957-3496</a>
-</h1>
-                </li>
+                
               </ul> 
           </nav>
         </IconContext.Provider>

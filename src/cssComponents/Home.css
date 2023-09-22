@@ -7,9 +7,9 @@ img{
     object-fit: cover;
 };
 
-@media screen and (max-width: 960px) {
-    .img-class {
-        width: 10px;
-        height: auto; /* To maintain aspect ratio */
+ @media screen and (max-width: 960px) {
+    .home #home-img img{
+        width: 1%; 
+       
       }
   }
