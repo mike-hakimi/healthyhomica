@@ -34,9 +34,9 @@ function Navbar (){
                   <h1>
                     <a class="phone-link-top" href="tel:+15109573496"
                   style={{
-                    color:'white',
-                    textDecoration: 'none',
-                    listStyle:'none'
+                    color: 'white',
+    textDecoration: 'none',
+    listStyle: 'none'
                 }}
                   >(510) 957-3496</a>
                     </h1>
@@ -93,12 +93,11 @@ function Navbar (){
                
                 <li className="window-9-5-nav">
                   <h1><a class="phone-link" href="tel:+15109573496"
-                   style={{
-                    color:'white',
-                    textDecoration: 'none',
-                     padding:'10px',
-                     fontSize: '1.5rem'
-                     }}>(510) 957-3496</a>
+                   style={{ color: 'white', 
+                   textDecoration: 'none', 
+                   listStyle: 'none' 
+                    
+                     }}> (510) 957-3496</a>
                       </h1>
                 </li>
                 

@@ -6,7 +6,7 @@
   
   .navbar {
     /* background: #19191a; */
-    background-color: #021e4b;
+    background-color: #01173b;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -47,6 +47,8 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    display: none;
+    list-style: none;
   }
   
   .navbar-icon {
@@ -119,12 +121,25 @@
     color: white;
     display: none;
  }
-   
+
+ .phone-link-top::before,
+.phone-link::before {
+  content: none !important;
+}
+
+.phone-link-top {
+  list-style: none !important;
+  text-decoration: none;
+}
 
 
  @media screen and (max-width: 960px) {
 
-
+  /* .phone-link-top {
+    all: unset !important;
+  } */
+  
+  
   .navbar .navbar-container .phone-link-top {
     display: none;
    
@@ -208,9 +223,7 @@ padding: 0;
     opacity: 1;
     transition: all 0.5s ease;
   }
-  .navbar {
-    background-color:  #1750ac;
-  }
+  
 
   .nav-menu.active {
     background-color: #00076e;
@@ -260,6 +273,20 @@ padding: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    
+    background-color: rgb(246, 249, 248);
+  }
+
+
+  body {
+    width: 100%; /* Ensure the body takes up the full viewport width */
+    overflow-x: hidden; /* Hide horizontal scrollbar if necessary */
+    /* Add other responsive styles here */
+  }
+
+  container {
+    width: 100%; /* Make sure the container is 100% width */
+    /* Add other container-specific styles here */
   }
 
  

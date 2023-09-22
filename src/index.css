@@ -21,3 +21,17 @@ img{
   
 
 }
+
+@media screen and (max-width:960px) {
+  
+  body {
+    width: 100%; /* Ensure the body takes up the full viewport width */
+    overflow-x: hidden; /* Hide horizontal scrollbar if necessary */
+    /* Add other responsive styles here */
+  }
+
+  container {
+    width: 100%; /* Make sure the container is 100% width */
+    /* Add other container-specific styles here */
+  }
+}
