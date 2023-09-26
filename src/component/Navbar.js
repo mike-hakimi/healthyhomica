@@ -35,9 +35,9 @@ function Navbar (){
                     <a class="phone-link-top" href="tel:+15109573496"
                   style={{
                     color: 'white',
-    textDecoration: 'none',
-    listStyle: 'none'
-                }}
+                    textDecoration: 'none',
+                     listStyle: 'none'
+                        }}
                   >(510) 957-3496</a>
                     </h1>
                 </li>

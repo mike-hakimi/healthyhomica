@@ -2,10 +2,11 @@
 .services {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     color: rgb(2, 63, 161);
     justify-content: space-evenly;
     padding: 0px;
-    margin: 0px;
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
@@ -56,6 +57,7 @@
     /* Override text color for specific elements within .services */
     .services .window h1,
     .services .solar h1,
+    .services .gutter h1,
     .services .pressure-washing h1 {
         color: rgb(3, 97, 180);
         padding: 2px;

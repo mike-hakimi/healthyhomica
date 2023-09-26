@@ -10,6 +10,7 @@ function Home(){
         <div className="home">
          <img id="home-img" src={process.env.PUBLIC_URL + '/images/main.png'}
           alt="window 9 5" />
+          
           <Services />
           <GoogleMap />
           <Contact />
@@ -20,3 +21,8 @@ function Home(){
     )
 };
 export default Home;
+
+
+
+
+

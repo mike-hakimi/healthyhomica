@@ -1,15 +1,23 @@
+@media screen and (max-width: 960px) {
+    img{
+        height: 40vh !important;
+        width: 109vw !important;
+        
+        
+       
+    };
+}
+
 img{
-    border: 3px solid black;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     height: 70vh;
-    width: 100%;
-    object-fit: cover;
+    width: 100vw;
+    object-fit:scale-down;
+   
 };
 
- @media screen and (max-width: 960px) {
-    .home #home-img img{
-        width: 1%; 
-       
-      }
-  }
+
+   
+
