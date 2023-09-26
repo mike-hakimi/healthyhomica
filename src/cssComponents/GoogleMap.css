@@ -7,9 +7,9 @@
     height: 300px; /* Set the desired height */
 }
 
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 960px){
     .google-maps {
-        max-width: 100%;
+        
         width: 50%; /* Set the desired width */
         height: 500px; /* Set the desired height */
     }

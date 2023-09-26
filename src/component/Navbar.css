@@ -135,7 +135,7 @@ text-decoration: none;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
 
 /* .phone-link-top {
   all: unset !important;
