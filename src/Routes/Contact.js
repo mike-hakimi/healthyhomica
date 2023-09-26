@@ -93,7 +93,7 @@ const StyledContactForm = styled.div`
  align-items: center;
  height: 100%;
  padding: 2px;
- margin: 0 auto;
+ margin: 0px;
  flex-direction: column;
 
 
@@ -114,7 +114,7 @@ h4 {
     font-size: 1.5rem;
     background: rgb(82, 15, 82);
     color: white;
-    border: 2px solid black;
+    // border: 2px solid black;
     marging-top: 30px;
 
     input {
