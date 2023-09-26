@@ -72,10 +72,11 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
     .about-p1 {
         width: 100%;
-        height: auto; /* Change height to auto to allow content to expand vertically */
+        height: 0 auto; /* Change height to auto to allow content to expand vertically */
         font-size: 1rem; /* Adjust font size for smaller screens */
         line-height: 1.2rem; 
-        margin: 0 auto;
+        margin: 8px;
+        padding: 5px;
         /* border-radius: 30px; */
         /* Adjust padding for smaller screens */
         /* Adjust margin for smaller screens */
