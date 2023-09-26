@@ -6,12 +6,10 @@ body {
 }
 
 .container {
-    /* display: flex;
-    justify-content: space-between;
-    flex-direction: column; */
     font-size: 1.5rem;
     padding: 10px;
     line-height: 1.8rem; 
+    width: 100%;
     
 }
 
@@ -60,8 +58,8 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 30px;
-        padding: 1px;
+        margin-top: 10px;
+        padding: 10px;
       
     }
 
@@ -69,7 +67,7 @@ body {
         width: 100%;
         height: auto; /* Change height to auto to allow content to expand vertically */
         font-size: 1rem; /* Adjust font size for smaller screens */
-        line-height: 1.5rem; 
+        line-height: 1.2rem; 
         margin: 0 auto;
         /* border-radius: 30px; */
         /* Adjust padding for smaller screens */

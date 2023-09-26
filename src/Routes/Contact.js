@@ -40,9 +40,7 @@ const Contact = () => {
   return (
    
     <StyledContactForm>
-         <h4>Contact us today for a free estimate!
-           
-       </h4>
+       
 
         {isSuccess ? (
             <SuccessMessage>Message sent successfully!</SuccessMessage>
@@ -50,6 +48,9 @@ const Contact = () => {
            
        
  <form ref={form} onSubmit={sendEmail}>
+      <h4>Contact us today for a free estimate!
+           
+           </h4>
    <label>Name</label>
    <input type="text" name="user_name" />
    <label>Email</label>
@@ -86,7 +87,21 @@ color: green;
 font-weight: bold;
 `
 const StyledContactForm = styled.div`
-  width: 350px;
+
+@media screen and (max-width: 960px) {
+    // form label,
+    // form input,
+    // form textarea {
+    //     width: 80vw;
+    //     margin: 5px 0;
+    //     padding: 5px;
+    //     font-size: 1rem; /* Adjust font size for smaller screens */
+    // }
+
+}
+
+
+  width: 100%;
 //  border: 2px solid rgb(220, 220, 220);
  display: flex;
  justify-content: center;
@@ -95,23 +110,16 @@ const StyledContactForm = styled.div`
  padding: 2px;
  margin: 0 auto;
  flex-direction: column;
- @media screen and (max-width: 960px) {
-    form label,
-    form input,
-    form textarea {
-        width: 100%;
-        margin: 5px 0;
-        background: red;
-        color: red;
-        padding: 5px;
-        font-size: 1rem; /* Adjust font size for smaller screens */
-    }
-}
+
+
 
 h4 {
+    display: flex;
+    align-self: center;
+    min-width: 250px;
+    max-width: 400px;
     padding: 6px;
     height: 50px;
-    margin-top: 10px;
     font-size: 1.2rem;
     color: white;
     background: purple;
@@ -122,11 +130,12 @@ h4 {
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
+    max-width: 400px;
     font-size: 1.5rem;
     background: rgb(82, 15, 82);
     color: white;
     // border: 2px solid black;
-    marging-top: 30px;
+    marging-top: 20px;
 
     input {
       width: 100%;
@@ -165,10 +174,13 @@ h4 {
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+    //   background: rgb(249, 105, 14);
+      background: rgb(212, 0, 212);
       color: white;
-      border: none;
+      border: 2px solid purple;
+      border-radius: 180px;
       font-size: 1rem;
+      width: 100%;
     }
   }
 `;
