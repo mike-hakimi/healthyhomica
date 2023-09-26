@@ -89,14 +89,11 @@ font-weight: bold;
 const StyledContactForm = styled.div`
 
 @media screen and (max-width: 960px) {
-    // form label,
-    // form input,
-    // form textarea {
-    //     width: 80vw;
-    //     margin: 5px 0;
-    //     padding: 5px;
-    //     font-size: 1rem; /* Adjust font size for smaller screens */
-    // }
+    form label,
+    form input,
+    form textarea {
+    max-width: 100%;
+    }
 
 }
 

@@ -140,7 +140,9 @@ text-decoration: none;
 /* .phone-link-top {
   all: unset !important;
 } */
-
+ *{
+  max-width: 100%;
+ }
 
 .navbar .navbar-container .phone-link-top {
   display: none;
