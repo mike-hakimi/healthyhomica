@@ -100,8 +100,6 @@ const StyledContactForm = styled.div`
 h4 {
     padding: 6px;
     height: 50px;
-    // width: 350px;
-    // margin-left: 20px;
     margin-top: 10px;
     font-size: 1.2rem;
     color: white;
@@ -114,7 +112,6 @@ h4 {
     flex-direction: column;
     width: 100%;
     font-size: 1.5rem;
-    // background: rgba(28, 97, 209, 0.413);
     background: rgb(82, 15, 82);
     color: white;
     border: 2px solid black;
@@ -126,9 +123,8 @@ h4 {
       padding: 7px;
       outline: none;
       border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-    //   background: whitesmoke;
-
+    //   border: 1px solid rgb(220, 220, 220);
+    
       &:focus {
         border: 2px solid rgba(0, 206, 158, 1);
       }
