@@ -101,6 +101,8 @@ const StyledContactForm = styled.div`
     form textarea {
         width: 100%;
         margin: 5px 0;
+        background: red;
+        color: red;
         padding: 5px;
         font-size: 1rem; /* Adjust font size for smaller screens */
     }
