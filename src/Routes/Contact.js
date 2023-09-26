@@ -93,9 +93,18 @@ const StyledContactForm = styled.div`
  align-items: center;
  height: 100%;
  padding: 2px;
- margin: 0px;
+ margin: 0 auto;
  flex-direction: column;
-
+ @media screen and (max-width: 960px) {
+    form label,
+    form input,
+    form textarea {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px;
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
 
 h4 {
     padding: 6px;
