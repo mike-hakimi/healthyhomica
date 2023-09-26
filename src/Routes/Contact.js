@@ -138,7 +138,8 @@ h4 {
     marging-top: 20px;
 
     input {
-      width: 100%;
+      align-self: center;
+      width: 93%;
       height: 35px;
       padding: 7px;
       outline: none;
@@ -151,9 +152,10 @@ h4 {
     }
 
     textarea {
+      align-self: center;
+      width: 93%;
       max-width: 100%;
-      min-width: 100%;
-      width: 100%;
+      min-width: 93%;
       max-height: 100%;
       min-height: 100px;
       padding: 7px;
