@@ -19,7 +19,7 @@
 }
 
 /* Updated styles for smaller screens */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     *body{
         background-color: white;
         max-width: 100%;
